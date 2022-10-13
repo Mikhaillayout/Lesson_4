@@ -1,0 +1,137 @@
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Начало === 2022-10 ==================== */
+@import "reset.css";
+/* ==================== Подключение обнуляющего стиля === (Обнуляет дефолтные настройки) === Конец === 2022-10 ==================== */
+
+/* ==================== Подключение шрифтов ===  === Начало === 2022-10 ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap");
+
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit.woff2") format("woff2"), url("../fonts/Larsseit.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Larsseit";
+  src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* ==================== Подключение шрифтов ===  === Конец === 2022-10 ==================== */
+main {
+  font-family: "Lato";
+  line-height: 20px;
+}
+header {
+  font-family: "Larsseit";
+  font-style: italic;
+}
+.links a {
+  color: green;
+  text-decoration: underline;
+}
+
+/* ==================== Не долждно работать === (Изучаю уточнения, тут ничего не должно работать) === Начало === 2022-10 ==================== */
+nav div {
+  color: blue;
+}
+.logo {
+  color: white;
+}
+.ch1 {
+  color: red;
+  text-align: right;
+  font-weight: 900;
+}
+.quote {
+  color: blue;
+}
+#chaptertwo {
+  text-align: right;
+}
+/* ==================== Не долждно работать === (Изучаю уточнения, тут ничего не должно работать) === Конец === 2022-10 ==================== */
+
+h1 {
+  color: rgb(47, 121, 121);
+  text-align: center;
+  font-size: 35px;
+  line-height: 60px;
+}
+.comment .comment-text {
+  font-style: italic;
+  line-height: 25px;
+  font-size: 12px;
+  color: blueviolet;
+  text-align: center;
+  font-weight: 400;
+}
+.cap {
+  color: black;
+}
+.quote {
+  text-align: left;
+}
+div p {
+  color: blueviolet;
+}
+p span {
+  color: blueviolet;
+}
+h2 {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+.ch2 p {
+  text-align: left;
+}
+.section .section-text {
+  color: coral;
+  line-height: 50px;
+}
+.years,
+.test,
+.money {
+  color: darkorange;
+}
+.ch4 {
+  font-family: "Larsseit";
+}
+.ch4 .qyote-text {
+  text-indent: 400px;
+  line-height: 10px;
+  color: black;
+}
